@@ -8,7 +8,6 @@ class BasePageLocators():
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 
-
 class BasketPageLocators():
     PRODUCTS_IN_BASKET = (By.CSS_SELECTOR, ".basket-title.hidden-xs")
     MESSAGE_ABOUT_EMPTY_BASKET = (By.CSS_SELECTOR, "#content_inner>p")
